@@ -357,6 +357,7 @@ class _HorizontalDataTableState extends State<HorizontalDataTable> {
       child: ChangeNotifierProvider<ScrollShadowModel>(
         create: (context) => _scrollShadowModel,
         child: SafeArea(
+          top: false,  
           child: LayoutBuilder(
             builder: (context, boxConstraint) {
               late double maxHeight;
