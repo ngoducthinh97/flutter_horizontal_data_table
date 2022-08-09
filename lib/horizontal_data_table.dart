@@ -182,7 +182,7 @@ class HorizontalDataTable extends StatefulWidget {
     this.scrollPhysics,
     this.horizontalScrollPhysics,
     this.enableRTL = false,
-      this.fixedSideColBackgroundColor,
+      this.fixedSideColBackgroundColor= Colors.white,
   })  : this.fixedSideColumnWidth = leftHandSideColumnWidth,
         this.bidirectionalSideColumnWidth = rightHandSideColumnWidth,
         this.fixedSideChildren = leftSideChildren,
